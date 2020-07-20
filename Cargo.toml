@@ -8,6 +8,7 @@ pwasm-ethereum = "0.8"
 pwasm-abi = "0.2"
 pwasm-token-contract = { path = "contract" }
 
+
 [lib]
 crate-type = ["cdylib"]
 path = "src/token.rs"

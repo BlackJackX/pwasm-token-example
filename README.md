@@ -17,3 +17,5 @@ Run:
 ```
 cargo test --manifest-path="contract/Cargo.toml" --features std
 ```
+
+## 修改root-toolchain为 nightly-2018-11-12

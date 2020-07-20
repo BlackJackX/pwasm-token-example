@@ -8,10 +8,12 @@ extern crate pwasm_ethereum;
 extern crate pwasm_abi;
 extern crate pwasm_abi_derive;
 
+
 use tiny_keccak::Keccak;
 use pwasm_ethereum as eth;
 use pwasm_abi::types::*;
 use pwasm_abi_derive::eth_abi;
+
 
 // `TokenContract` is an interface definition of a contract.
 // The following example covers the minimal subset of ERC20 token standard.
